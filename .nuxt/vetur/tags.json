@@ -1,0 +1,14 @@
+{
+  "MultiForm": {
+    "description": "Auto imported from components/MultiForm.vue"
+  },
+  "Card": {
+    "description": "Auto imported from components/card.vue"
+  },
+  "FooterComponent": {
+    "description": "Auto imported from components/footer_component.vue"
+  },
+  "HeaderComponent": {
+    "description": "Auto imported from components/header_component.vue"
+  }
+}

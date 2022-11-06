@@ -1,0 +1,72 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_3a6ccd17"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_54eab7aa"
+  },
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/dashboard.vue",
+    "chunkName": "pages/dashboard",
+    "_name": "_94d4a0c4"
+  },
+  {
+    "name": "form",
+    "path": "/form",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/form.vue",
+    "chunkName": "pages/form",
+    "_name": "_6af3c1aa"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_23cc4af3"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/register.vue",
+    "chunkName": "pages/register",
+    "_name": "_cdd1f5ee"
+  },
+  {
+    "name": "team",
+    "path": "/team",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/team.vue",
+    "chunkName": "pages/team",
+    "_name": "_2978fa7a"
+  },
+  {
+    "name": "tech",
+    "path": "/tech",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/tech.vue",
+    "chunkName": "pages/tech",
+    "_name": "_23328308"
+  },
+  {
+    "name": "todos",
+    "path": "/todos",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/todos.vue",
+    "chunkName": "pages/todos",
+    "_name": "_31c09a77"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/haridevaraj/Documents/Junction/Frontend/tilin-frontend/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5a24a7dc"
+  }
+]
