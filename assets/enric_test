@@ -1,0 +1,48 @@
+import axios from "axios";
+import VueTagsInput from "@johmun/vue-tags-input";
+
+export default {
+  components: {
+    VueTagsInput,
+  },
+  data() {
+    return {
+      email: "",
+      password: "",
+      age: "",
+      sex: "",
+      public_tags: [],
+      private_tags: [],
+      preferred_contact_method: "",
+      description: "",
+    };
+  },
+  methods: {
+    async sendData() {
+      let private_tags = [];
+      let public_tags = [];
+      this.private_tags.forEach((tag) => {
+        private_tags.push(tag.text);
+      });
+      this.public_tags.forEach((tag) => {
+        public_tags.push(tag.text);
+      });
+      let result = await axios.post("/api/users", {
+        email: this.email,
+        password: this.password,
+        age: this.age,
+        sex: this.sex,
+        public_tags: public_tags,
+        private_tags: private_tags,
+        preferred_contact_method: this.preferred_contact_method,
+        description: this.description,
+      });
+      // if the result is successful, redirect to the dashboard
+      if (result.status === 200) {
+        this.$router.push("/dashboard");
+      } else {
+        alert("Something went wrong");
+      }
+    },
+  },
+};
